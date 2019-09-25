@@ -583,3 +583,63 @@ img {
   width: 280px;
   margin: 0 auto;
 }
+
+.container {
+  margin: 0 auto;
+}
+
+.program-section {
+  padding-top: 50px;
+  background: #111517;
+}
+
+.program-section__list {
+  margin: 0 auto;
+  padding: 0;
+  width: 150px;
+  list-style: none;
+}
+
+.program-section__item {
+  width: 150px;
+}
+
+.item__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.program-section__title {
+  margin-bottom: 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  line-height: 33px;
+  font-weight: 800;
+  color: white;
+  text-align: center;
+}
+
+.program-section__subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 700;
+  color: white;
+}
+
+.caption {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 700;
+  color: #ff6b08;
+}
+
+.theme {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #858585;
+}
