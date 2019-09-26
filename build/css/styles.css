@@ -854,16 +854,16 @@ img {
   .program-section__list {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     position: relative;
     margin: 0 auto;
     padding: 0;
-    width: 1210px;
+    min-width: 1210px;
     list-style: none;
   }
 
   .program-section__item {
-    width: 200px;
+    width: 160px;
   }
 
   .item__list {
