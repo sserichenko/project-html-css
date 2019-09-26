@@ -754,7 +754,7 @@ body {
 
 .reviews-section {
   padding-top: 46px;
-  padding-bottom: 55px;
+  padding-bottom: 17px;
   text-align: center;
 }
 
@@ -878,4 +878,78 @@ body {
 
 .slider-pagination-item:nth-last-child(-n +4) {
   display: none;
+}
+
+.footer {
+  padding-top: 38px;
+}
+
+.footer__request {
+  padding-top: 52px;
+  background-image: url(../images/footer/footer-320.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-width: 320px;
+  height: 537px;
+  text-align: center;
+}
+
+.footer__title {
+  margin-bottom: 16px;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 800;
+}
+
+.footer__title span {
+  color: #ff6b08;
+}
+
+.footer__subtitle {
+  margin-bottom: 25px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.footer__subtitle span {
+  color: #ff6b08;
+}
+
+.form {
+  height: 223px;
+}
+
+.form__registration {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 55px;
+  width: 280px;
+  height: 120px;
+}
+
+.form__registration input {
+  display: block;
+  padding-left: 23px;
+  height: 50px;
+  border: 1px solid  #ffffff;
+  color: #ffffff;
+  font-size: 13px;
+  line-height: 38px;
+  font-weight: 600;
+  background-color: transparent;
+}
+
+.form__button {
+  width: 250px;
+  height: 48px;
+  background-color: #ff6b08;
+  border: none;
+  color: #ffffff;
+  font-size: 11px;
+  line-height: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
 }
