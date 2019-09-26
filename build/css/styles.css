@@ -637,7 +637,7 @@ body {
 
 .teacher-achievement__list {
   margin: 0;
-  margin-bottom: 20px;
+  margin-bottom: 17px;
   padding: 0;
   padding-top: 24px;
   border-top: 1px solid rgba(133, 133, 133, 0.38);
@@ -651,7 +651,8 @@ body {
   color: #111517;
   font-size: 13px;
   line-height: 20px;
-  font-weight: 400;
+  font-weight: 600;
+  letter-spacing: 1.06px;
 }
 
 .teacher-achievement__item:not(:last-child) {
@@ -753,6 +754,7 @@ body {
 
 .reviews-section {
   padding-top: 46px;
+  padding-bottom: 55px;
   text-align: center;
 }
 
@@ -768,48 +770,66 @@ body {
   position: relative;
   width: 280px;
   margin: auto;
-  padding-top: 22px;
 }
 
-.slider-ctrl {
+.slider__buttons {
   position: absolute;
-  bottom: 76px;
-  border: none;
+  max-width: 280px;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.slider__ctrl {
+  position: absolute;
+  bottom: 21px;
   display: inline-block;
+  margin: 0;
+  padding: 0;
   width: 20px;
   height: 11px;
+  border: none;
   z-index: 1;
   background-color: transparent;
+  cursor: pointer;
 }
 
-.slider-ctrl-prev {
+.slider__ctrl-prev {
   background-image: url(../../images/study/icon-prev-320.png);
   left: 0;
 }
 
-.slider-ctrl-next {
+.slider__ctrl-next {
   background-image: url(../../images/study/icon-next-320.png);
   right: 0;
 }
 
-.slides {
+.slides__list {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.slides-item {
+.slides__item {
   position: relative;
+}
+
+.slides__content {
+  padding: 22px 41px 34px;
+  width: 280px;
+  position: relative;
+  background-color: #ffffff;
+  box-shadow: 4px 6.928px 34.96px 11.04px rgba(29, 29, 27, 0.09);
 }
 
 .slides__image {
   margin: 0 auto;
-  margin-bottom: 21px;
+  margin-bottom: 18px;
 }
 
 .slides__link {
   display: block;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
 }
 
 .slides__title {
@@ -820,8 +840,42 @@ body {
 }
 
 .slides__subtitle {
+  margin: 0;
+  margin-bottom: 14px;
   color: #858585;
   line-height: 17px;
   font-weight: 500;
+}
+
+.slides__about {
   margin: 0;
+  color: #18191d;
+  font-weight: 500;
+}
+
+.slides__button {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  right: 36px;
+  bottom: 34px;
+  color: #ff6b08;
+  font-size: 11px;
+  line-height: 20px;
+  font-weight: 500;
+  text-decoration: underline;
+  border: none;
+  cursor: pointer;
+}
+
+.slider__pagination {
+  display: flex;
+  width: 184px;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 17px;
+}
+
+.slider-pagination-item:nth-last-child(-n +4) {
+  display: none;
 }
