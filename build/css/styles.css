@@ -555,6 +555,16 @@ template {
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+/* montserrat-regular - latin_cyrillic */
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Montserrat Regular"), local("Montserrat-Regular"), url("../fonts/montserrat-v14-latin_cyrillic-regular.woff2") format("woff2"), url("../fonts/montserrat-v14-latin_cyrillic-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 html {
   box-sizing: border-box;
   margin: 0;
@@ -584,9 +594,234 @@ img {
   margin: 0 auto;
 }
 
-.study-section__title {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+body {
   font-family: 'Montserrat', sans-serif;
-  font-style: normal;
+  color: #858585;
+  font-size: 11px;
+  line-height: 20px;
   font-weight: 400;
-  color: red;
+}
+
+.teacher-section {
+  padding-top: 242px;
+  padding-bottom: 16px;
+}
+
+.teacher-section__title {
+  margin-bottom: 21px;
+  color: #111517;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 800;
+}
+
+.teacher-section__img {
+  margin-bottom: 19px;
+}
+
+.teacher-achievement__name {
+  color: #111517;
+  font-size: 16px;
+  line-height: 29px;
+  font-weight: 800;
+}
+
+.teacher-achievement__list {
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+  padding-top: 24px;
+  border-top: 1px solid rgba(133, 133, 133, 0.38);
+  list-style: none;
+}
+
+.teacher-achievement__item {
+  position: relative;
+  padding-left: 34px;
+  width: 280px;
+  color: #111517;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.teacher-achievement__item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.teacher-achievement__item::before {
+  display: block;
+  content: '';
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/study/icon-check.svg);
+}
+
+.teacher-achievement__about {
+  margin: 0;
+  margin-bottom: 20px;
+  padding-left: 15px;
+}
+
+.teacher-achievement__about:last-of-type {
+  margin-bottom: 8px;
+}
+
+.teacher-achievement__about:first-of-type::before {
+  margin-bottom: 17px;
+  display: block;
+  content: '';
+  width: 25px;
+  height: 2px;
+  background-color: #ff6b08;
+}
+
+.teacher-achievement__link {
+  padding-left: 15px;
+  color: #ff6b08;
+  font-size: 11px;
+  line-height: 29px;
+  font-weight: 400;
+}
+
+.guaranties-section {
+  padding-top: 9px;
+}
+
+.guaranties-section__title {
+  margin-bottom: 3px;
+  color: #111517;
+  font-size: 20px;
+  line-height: 63px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.guaranties {
+  background-color: #f1f1f1;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.guaranties__list {
+  padding: 0;
+  list-style: none;
+}
+
+.guaranties__item {
+  position: relative;
+  padding-left: 34px;
+  width: 280px;
+  color: #18191d;
+  font-weight: 500;
+}
+
+.guaranties__item:not(:last-child) {
+  margin-bottom: 18px;
+}
+
+.guaranties__item::before {
+  display: block;
+  content: '';
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/study/icon-campfire.svg);
+}
+
+.guaranties__item span {
+  color: #ff6b08;
+}
+
+.reviews-section {
+  padding-top: 46px;
+  text-align: center;
+}
+
+.reviews-section__title {
+  margin-bottom: 17px;
+  color: #111517;
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: 800;
+}
+
+.slider {
+  position: relative;
+  width: 280px;
+  margin: auto;
+  padding-top: 22px;
+}
+
+.slider-ctrl {
+  position: absolute;
+  bottom: 76px;
+  border: none;
+  display: inline-block;
+  width: 20px;
+  height: 11px;
+  z-index: 1;
+  background-color: transparent;
+}
+
+.slider-ctrl-prev {
+  background-image: url(../../images/study/icon-prev-320.png);
+  left: 0;
+}
+
+.slider-ctrl-next {
+  background-image: url(../../images/study/icon-next-320.png);
+  right: 0;
+}
+
+.slides {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.slides-item {
+  position: relative;
+}
+
+.slides__image {
+  margin: 0 auto;
+  margin-bottom: 21px;
+}
+
+.slides__link {
+  display: block;
+  margin-bottom: 12px;
+}
+
+.slides__title {
+  color: #ff6b08;
+  font-size: 13px;
+  line-height: 29px;
+  font-weight: 800;
+}
+
+.slides__subtitle {
+  color: #858585;
+  line-height: 17px;
+  font-weight: 500;
+  margin: 0;
 }
