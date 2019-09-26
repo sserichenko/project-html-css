@@ -770,6 +770,7 @@ img {
   .program-section__title {
     text-align: left;
     padding-left: 50px;
+    font-size: 26px;
     letter-spacing: 1.5px;
   }
 
@@ -808,6 +809,8 @@ img {
   .advantage__title {
     text-align: center;
     width: auto;
+    font-size: 26px;
+    letter-spacing: 1.5px;
   }
 
   .advantage-section {
@@ -829,5 +832,46 @@ img {
 
   .advantage__item {
     width: 200px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    width: 1210px;
+  }
+
+  .program-section__title {
+    padding-left: 35px;
+    font-size: 42px;
+  }
+
+  .program-section__list::before {
+    content: "";
+    width: 1210px;
+    height: 2px;
+  }
+
+  .program-section__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    width: 1210px;
+    list-style: none;
+  }
+
+  .program-section__item {
+    width: 200px;
+  }
+
+  .item__list {
+    display: block;
+  }
+
+  .item__list--item {
+    margin: 0;
+    width: 160px;
   }
 }
