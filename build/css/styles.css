@@ -589,8 +589,9 @@ img {
 }
 
 .program-section {
+  position: relative;
   padding-top: 50px;
-  padding-bottom: 435px;
+  padding-bottom: 430px;
   background: #111517;
   background-image: url(../../images/photo-02-cut.jpg);
   background-repeat: no-repeat;
@@ -694,8 +695,10 @@ img {
 }
 
 .advantage-section {
-  position: relative;
-  top: -415px;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .advantage__title {
@@ -762,7 +765,7 @@ img {
   }
 
   .program-section {
-    padding-bottom: 350px;
+    padding-bottom: 360px;
     background-image: url(../../images/photo-02-cut-tablet.jpg);
     background-position: 100% 900px;
   }
@@ -831,8 +834,8 @@ img {
   }
 
   .advantage-section {
-    position: relative;
-    top: -180px;
+    position: absolute;
+    top: 85%;
   }
 
   .advantage__list {
@@ -859,9 +862,9 @@ img {
 
   .program-section {
     padding-top: 70px;
-    padding-bottom: 480px;
+    padding-bottom: 350px;
     background-image: url(../../images/photo-02-cut-desktop.jpg);
-    background-position: 0 70%;
+    background-position: 0 90%;
   }
 
   .program-section__title {
@@ -912,7 +915,7 @@ img {
   }
 
   .advantage-section {
-    top: -323px;
+    top: 78%;
   }
 
   .advantage__title {
