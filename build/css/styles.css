@@ -592,6 +592,7 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: -300px;
+  position: relative;
 }
 
 .nav {
@@ -739,6 +740,17 @@ img {
 
 .icon-3::before {
   background-image: url(../images/header-icon-3.png);
+}
+
+.appears {
+  width: 320px;
+  height: 600px;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  background-size: cover;
+  top: 0;
+  left: 0;
+  display: none;
 }
 
 @media (min-width: 768px) {
