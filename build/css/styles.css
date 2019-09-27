@@ -815,12 +815,12 @@ body {
 }
 
 .slider__ctrl-prev {
-  background-image: url(../../images/study/icon-prev-320.png);
+  background-image: url(../images/study/icon-prev-320.png);
   left: 0;
 }
 
 .slider__ctrl-next {
-  background-image: url(../../images/study/icon-next-320.png);
+  background-image: url(../images/study/icon-next-320.png);
   right: 0;
 }
 
@@ -1040,7 +1040,7 @@ body {
 
   .teacher-section {
     padding-top: 218px;
-    padding-bottom: 21px;
+    padding-bottom: 20px;
   }
 
   .teacher-section__title {
@@ -1094,6 +1094,72 @@ body {
   }
 
   .guaranties-section {
-    padding-top: 24px;
+    padding-top: 15px;
+  }
+
+  .guaranties-section__title {
+    margin-bottom: 9px;
+    font-size: 26px;
+  }
+
+  .guaranties {
+    padding-top: 34px;
+    padding-bottom: 29px;
+    width: 688px;
+    margin: 0 auto;
+  }
+
+  .guaranties__list {
+    padding: 0 55px;
+  }
+
+  .guaranties__list::after {
+    left: 67px;
+  }
+
+  .guaranties__item {
+    width: 100%;
+  }
+
+  .reviews-section {
+    padding-top: 47px;
+    padding-bottom: 75px;
+  }
+
+  .reviews-section__title {
+    margin-bottom: 20px;
+    font-size: 26px;
+    line-height: 63px;
+  }
+
+  .slider {
+    position: relative;
+    width: 688px;
+    margin: auto;
+  }
+
+  .slider__ctrl {
+    bottom: 207px;
+    width: 25px;
+    height: 14px;
+  }
+
+  .slider__ctrl-prev {
+    background-image: url(../images/study/icon-prev-768.png);
+    left: 0;
+  }
+
+  .slider__ctrl-next {
+    background-image: url(../images/study/icon-next-768.png);
+    right: 0;
+  }
+
+  .slides__content {
+    padding-top: 40px;
+    padding-bottom: 49px;
+  }
+
+  .slider-pagination__item:nth-last-child(-n +4) {
+    display: inline-block;
   }
 }
