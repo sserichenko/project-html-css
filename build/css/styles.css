@@ -745,21 +745,23 @@ img {
 
 .problems-section {
   margin: 0 auto;
-  width: 320px;
-  background: #111517;
   padding-top: 50px;
+  background-color: #111517;
+  height: 514px;
 }
 
 .problems-section__list {
   background-color: white;
   box-shadow: 4px 6.928px 15.54px 5.46px rgba(29, 29, 27, 0.04);
   width: 280px;
-  height: 465px;
+  height: 470px;
   list-style: none;
   margin: 0 auto;
   padding-left: 25px;
   padding-right: 25px;
   line-height: 1.538;
+  padding-top: 10px;
+  position: relative;
 }
 
 .problems-section__title {
@@ -771,7 +773,6 @@ img {
   font-size: 20px;
   padding-left: 20px;
   padding-right: 40px;
-  padding-top: 50px;
 }
 
 .problems-section__item {
@@ -826,7 +827,7 @@ img {
 }
 
 .solving-section {
-  padding-top: 40px;
+  padding-top: 160px;
 }
 
 .solving-section__title {
@@ -1171,6 +1172,7 @@ img {
 
   .solving-section {
     padding-top: 180px;
+    padding-bottom: 50px;
   }
 
   .solving-section__item {
@@ -1516,7 +1518,7 @@ img {
     justify-content: space-between;
     flex-wrap: wrap;
     height: auto;
-    padding: 20px 70px;
+    padding: 20px 90px;
     position: relative;
     top: 50px;
   }
@@ -1526,14 +1528,13 @@ img {
   }
 
   .problems-section__title {
-    font-size: 32px;
+    font-size: 42px;
     font-family: "Montserrat";
     color: white;
     font-weight: bold;
     line-height: 1.346;
-    width: 640px;
+    width: 760px;
     margin: 0;
-    margin-top: 20px;
   }
 
   .problems-section__subtitle {
