@@ -762,9 +762,9 @@ img {
   }
 
   .program-section {
-    padding-bottom: 320px;
+    padding-bottom: 350px;
     background-image: url(../../images/photo-02-cut-tablet.jpg);
-    background-position: 100% 800px;
+    background-position: 100% 900px;
   }
 
   .program-section__title {
@@ -779,8 +779,12 @@ img {
     margin: 0 auto;
     padding: 0;
     padding-left: 56px;
-    width: 510px;
+    width: 500px;
     list-style: none;
+  }
+
+  .program-section__subtitle {
+    font-size: 15px;
   }
 
   .program-section__item {
@@ -801,9 +805,22 @@ img {
     width: 160px;
   }
 
+  .caption {
+    font-size: 13px;
+  }
+
+  .caption::before {
+    left: -33px;
+  }
+
+  .theme {
+    font-size: 11px;
+    line-height: 24px;
+  }
+
   .program-section__list::before {
     content: "";
-    height: 735px;
+    height: 790px;
   }
 
   .advantage__title {
@@ -840,26 +857,45 @@ img {
     width: 1210px;
   }
 
+  .program-section {
+    padding-top: 70px;
+    padding-bottom: 480px;
+    background-image: url(../../images/photo-02-cut-desktop.jpg);
+    background-position: 0 70%;
+  }
+
   .program-section__title {
-    padding-left: 35px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding-left: 10px;
     font-size: 42px;
+    width: 1180px;
   }
 
   .program-section__list::before {
     content: "";
-    width: 1210px;
+    width: 100vw;
+    transform: translateX(calc((-100vw + 1210px)/2));
     height: 2px;
   }
 
   .program-section__list {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     position: relative;
     margin: 0 auto;
     padding: 0;
+    padding-top: 40px;
+    padding-left: 30px;
     min-width: 1210px;
     list-style: none;
+  }
+
+  .program-section__item::before {
+    left: 0;
+    top: -34px;
   }
 
   .program-section__item {
@@ -873,5 +909,31 @@ img {
   .item__list--item {
     margin: 0;
     width: 160px;
+  }
+
+  .advantage-section {
+    top: -323px;
+  }
+
+  .advantage__title {
+    font-size: 42px;
+    margin-bottom: 40px;
+  }
+
+  .advantage__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px 100px;
+  }
+
+  .advantage__item {
+    width: 300px;
+    margin-bottom: 30px;
+  }
+
+  .advantage__item:nth-child(n+4) {
+    margin-bottom: 0;
   }
 }
