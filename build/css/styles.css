@@ -587,7 +587,7 @@ img {
 .header {
   padding-top: 26px;
   padding-bottom: 50px;
-  background-image: url(../images/new-bgr-tabl.png);
+  background-image: url(../images/bg-mob.png);
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -745,6 +745,7 @@ img {
   .header {
     padding-top: 34px;
     padding-bottom: 52px;
+    background-image: url(../images/bg-tab.png);
   }
 
   .container {
@@ -849,11 +850,11 @@ img {
   .nav__link {
     text-decoration: none;
     font-size: 12px;
-    line-height: 14px;
+    line-height: 15px;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 900;
     color: #b9b9b9;
   }
 
@@ -892,6 +893,9 @@ img {
     height: 70px;
     font-size: 12px;
     line-height: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
   }
 
   .header-section {
@@ -942,21 +946,5 @@ img {
 
   .header-features__item:nth-of-type(3) {
     width: 325px;
-  }
-}
-
-@media (min-width: 1680px) {
-  .container {
-    width: 1340px;
-    margin: 0 auto;
-  }
-
-  .header__block {
-    width: 610px;
-  }
-
-  .header__photo {
-    width: 840px;
-    margin: 0;
   }
 }
