@@ -628,6 +628,10 @@ body {
   margin-bottom: 19px;
 }
 
+.teacher-section__img-tablet {
+  display: none;
+}
+
 .teacher-achievement__name {
   color: #111517;
   font-size: 16px;
@@ -721,6 +725,21 @@ body {
 .guaranties__list {
   padding: 0;
   list-style: none;
+  position: relative;
+}
+
+.guaranties__list::after {
+  content: '';
+  display: inline-block;
+  border-width: 1px;
+  border-color: #bababa;
+  border-style: dotted;
+  position: absolute;
+  width: 1px;
+  height: 83%;
+  top: 10px;
+  left: 12px;
+  z-index: 1;
 }
 
 .guaranties__item {
@@ -746,6 +765,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-image: url(../images/study/icon-campfire.svg);
+  z-index: 2;
 }
 
 .guaranties__item span {
@@ -754,7 +774,7 @@ body {
 
 .reviews-section {
   padding-top: 46px;
-  padding-bottom: 17px;
+  padding-bottom: 55px;
   text-align: center;
 }
 
@@ -774,9 +794,9 @@ body {
 
 .slider__buttons {
   position: absolute;
-  max-width: 280px;
   width: 100%;
-  height: 100%;
+  height: 60px;
+  bottom: 0;
   z-index: 1;
 }
 
@@ -810,14 +830,8 @@ body {
   list-style: none;
 }
 
-.slides__item {
-  position: relative;
-}
-
 .slides__content {
   padding: 22px 41px 34px;
-  width: 280px;
-  position: relative;
   background-color: #ffffff;
   box-shadow: 4px 6.928px 34.96px 11.04px rgba(29, 29, 27, 0.09);
 }
@@ -830,6 +844,8 @@ body {
 .slides__link {
   display: block;
   margin-bottom: 8px;
+  width: 34px;
+  margin: 0 auto;
 }
 
 .slides__title {
@@ -854,7 +870,6 @@ body {
 }
 
 .slides__button {
-  position: absolute;
   margin: 0;
   padding: 0;
   right: 36px;
@@ -876,22 +891,19 @@ body {
   padding-top: 17px;
 }
 
-.slider-pagination-item:nth-last-child(-n +4) {
+.slider-pagination__item:nth-last-child(-n +4) {
   display: none;
-}
-
-.footer {
-  padding-top: 38px;
 }
 
 .footer__request {
   padding-top: 52px;
+  padding-bottom: 56px;
   background-image: url(../images/footer/footer-320.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   min-width: 320px;
-  height: 537px;
+  height: auto;
   text-align: center;
 }
 
@@ -924,6 +936,7 @@ body {
 .form__registration {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   margin-bottom: 55px;
   width: 280px;
   height: 120px;
@@ -952,4 +965,135 @@ body {
   font-weight: 600;
   text-transform: uppercase;
   cursor: pointer;
+}
+
+.contacts {
+  padding-top: 26px;
+  padding-bottom: 14px;
+  text-align: center;
+}
+
+.contacts__phone {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 15px;
+  color: #111517;
+  font-size: 18px;
+  line-height: 38px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+}
+
+.contacts__phone::before {
+  display: block;
+  content: '';
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  left: 0;
+  top: 8px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/footer/icon-call.svg);
+}
+
+.contacts__link {
+  display: block;
+}
+
+.instagram__icon {
+  display: block;
+  width: 37px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.contacts__img {
+  margin: 0 auto;
+}
+
+.logo__icon {
+  display: block;
+  width: 79px;
+  margin: 0 auto;
+}
+
+.legal__information {
+  padding: 18px 0;
+  min-height: 72px;
+  background-color: #111517;
+  color: #fdfefe;
+  font-size: 11px;
+  line-height: 38px;
+  font-weight: 500;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .container {
+    min-width: 688px;
+  }
+
+  .teacher-section {
+    padding-top: 218px;
+    padding-bottom: 21px;
+  }
+
+  .teacher-section__title {
+    margin-bottom: 15px;
+    font-size: 26px;
+    line-height: 63px;
+  }
+
+  .teacher__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .teacher-section__img-mobile {
+    display: none;
+  }
+
+  .teacher-section__img-tablet {
+    margin-bottom: 0;
+    display: block;
+    align-self: baseline;
+  }
+
+  .teacher-achievement {
+    flex-basis: 398px;
+  }
+
+  .teacher-achievement__name {
+    margin-bottom: 9px;
+    font-size: 20px;
+  }
+
+  .teacher-achievement__list {
+    padding-top: 21px;
+  }
+
+  .teacher-achievement__item {
+    width: 374px;
+  }
+
+  .teacher-achievement__about {
+    padding-left: 2px;
+  }
+
+  .teacher-achievement__about:last-of-type {
+    margin-bottom: 13px;
+  }
+
+  .teacher-achievement__link {
+    padding-left: 2px;
+  }
+
+  .guaranties-section {
+    padding-top: 24px;
+  }
 }
