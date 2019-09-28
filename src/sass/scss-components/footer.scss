@@ -49,7 +49,7 @@
   display: block;
   padding-left: 23px;
   height: 50px;
-  border: 1px solid  #ffffff;
+  border: 1px solid #ffffff;
   color: #ffffff;
   font-size: 13px;
   line-height: 38px;
@@ -109,19 +109,17 @@
 }
 
 .instagram__icon {
-  display: block;
-  width: 37px;
   margin: 0 auto;
   margin-bottom: 20px;
-}
-
-.contacts__img {
-  margin: 0 auto;
+  width: 37px;
 }
 
 .logo__icon {
-  display: block;
+  margin: 0 auto;
   width: 79px;
+}
+
+.logo__img {
   margin: 0 auto;
 }
 
@@ -129,9 +127,87 @@
   padding: 18px 0;
   min-height: 72px;
   background-color: #111517;
-  color: #fdfefe;
+  color: rgba(253, 254, 254, 0.42);
   font-size: 11px;
   line-height: 38px;
   font-weight: 500;
   text-align: center;
+}
+
+@media (min-width: 768px) {
+  .container {
+    min-width: 688px;
+  }
+
+  .footer__request {
+    padding-top: 54px;
+    padding-bottom: 64px;
+    background-image: url(../images/footer/footer-768.jpg);
+    min-width: 768px;
+  }
+
+  .footer__title {
+    margin-bottom: 23px;
+    padding: 0 72px;
+    font-size: 22px;
+    line-height: 38px;
+  }
+
+  .footer__subtitle {
+    margin-bottom: 39px;
+    padding: 0 114px;
+    font-size: 15px;
+    text-align: left;
+  }
+
+  .form__registration {
+    margin: 0 auto;
+    margin-bottom: 31px;
+    width: 400px;
+    height: 120px;
+  }
+
+  .contacts {
+    display: flex;
+    padding: 37px 0;
+    text-align: left;
+  }
+
+  .contacts__link {
+    margin: 0;
+  }
+
+  .contacts__phone {
+    margin-right: 30px;
+    margin-bottom: 0;
+    padding-right: 30px;
+    font-size: 20px;
+    order: 2;
+  }
+
+  .contacts__phone::after {
+    display: block;
+    content: '';
+    width: 1px;
+    height: 29px;
+    position: absolute;
+    top: 5px;
+    right: 0;
+    background-color: #e0e0e0;
+  }
+
+  .instagram__icon {
+    margin: 0;
+    order: 3;
+  }
+
+  .logo__icon {
+    margin: 0;
+    margin-right: 83px;
+    order: 1;
+  }
+
+  .legal__information {
+    text-align: left;
+  }
 }

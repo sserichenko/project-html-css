@@ -7,6 +7,12 @@ h6 {
   margin: 0;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
   color: #858585;
@@ -192,6 +198,10 @@ body {
   font-weight: 800;
 }
 
+.reviews-section__title-tablet {
+  display: none;
+}
+
 .slider {
   position: relative;
   width: 280px;
@@ -275,6 +285,10 @@ body {
   font-weight: 500;
 }
 
+.slides__about-tablet {
+  display: none;
+}
+
 .slides__button {
   margin: 0;
   padding: 0;
@@ -291,14 +305,26 @@ body {
 
 .slider__pagination {
   display: flex;
-  width: 184px;
-  justify-content: space-between;
   margin: 0 auto;
   padding-top: 17px;
+  width: 184px;
+  justify-content: space-between;
+}
+
+.slider-pagination__item {
+  cursor: pointer;
 }
 
 .slider-pagination__item:nth-last-child(-n +4) {
   display: none;
+}
+
+.slider-pagination__item:hover,
+.slider-pagination__item:focus {
+  border: 2px solid #ff6b08;
+  border-radius: 50%;
+  width: 58px;
+  height: 58px;
 }
 
 @media (min-width: 768px) {
@@ -395,49 +421,82 @@ body {
   }
 
   .reviews-section__title {
+    display: none;
+  }
+
+  .reviews-section__title-tablet {
     margin-bottom: 20px;
+    color: #111517;
     font-size: 26px;
     line-height: 63px;
+    font-weight: 800;
+    display: block;
   }
 
   .slider {
-    position: relative;
     width: 688px;
-    margin: auto;
   }
 
   .slider__ctrl {
-    bottom: 207px;
+    bottom: 190px;
     width: 25px;
     height: 14px;
   }
 
   .slider__ctrl-prev {
     background-image: url(../images/study/icon-prev-768.png);
-    left: 0;
+    left: -18px;
   }
 
   .slider__ctrl-next {
     background-image: url(../images/study/icon-next-768.png);
-    right: 0;
+    right: -18px;
   }
 
   .slides__content {
-    padding-top: 40px;
-    padding-bottom: 49px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0 49px;
   }
 
+  .slides__content-person {
+    padding-top: 22px;
+    width: 152px;
+  }
 
+  .slides__content-about {
+    width: 528px;
+    text-align: left;
+    padding-right: 60px;
+  }
+
+  .slides__title {
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+
+  .slides__subtitle {
+    font-size: 13px;
+    margin-bottom: 16px;
+  }
+
+  .slides__about {
+    display: none;
+  }
+
+  .slides__about-tablet {
+    display: block;
+    margin: 0;
+    color: #18191d;
+    font-weight: 500;
+  }
+
+  .slider__pagination {
+    padding-top: 24px;
+    width: 505px;
+  }
 
   .slider-pagination__item:nth-last-child(-n +4) {
     display: inline-block;
   }
-
-
-
-
-
-
-
-
 }
