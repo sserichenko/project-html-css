@@ -42,6 +42,10 @@ body {
   display: none;
 }
 
+.teacher-section__img-desktop {
+  display: none;
+}
+
 .teacher-achievement__name {
   color: #111517;
   font-size: 16px;
@@ -70,7 +74,7 @@ body {
 }
 
 .teacher-achievement__item:not(:last-child) {
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 
 .teacher-achievement__item::before {
@@ -252,9 +256,13 @@ body {
   box-shadow: 4px 6.928px 34.96px 11.04px rgba(29, 29, 27, 0.09);
 }
 
-.slides__image {
+.slides__image-mobile {
   margin: 0 auto;
   margin-bottom: 18px;
+}
+
+.slides__image-desktop {
+  display: none;
 }
 
 .slides__link {
@@ -498,5 +506,188 @@ body {
 
   .slider-pagination__item:nth-last-child(-n +4) {
     display: inline-block;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    min-width: 1210px;
+  }
+
+  .teacher-section {
+    padding-top: 88px;
+    padding-bottom: 48px;
+  }
+
+  .teacher-section__title {
+    margin-bottom: 44px;
+    font-size: 42px;
+  }
+
+  .teacher-section__img-tablet {
+    display: none;
+  }
+
+  .teacher-section__img-desktop {
+    display: block;
+    margin-bottom: 0;
+    align-self: baseline;
+  }
+
+  .teacher-achievement {
+    flex-basis: 631px;
+  }
+
+  .teacher-achievement__name {
+    margin-bottom: 10px;
+    font-size: 29px;
+  }
+
+  .teacher-achievement__list {
+    width: 602px;
+    margin-bottom: 26px;
+    padding-top: 35px;
+  }
+
+  .teacher-achievement__item {
+    padding-left: 42px;
+    font-size: 17px;
+    line-height: 29px;
+    width: 100%;
+  }
+
+  .teacher-achievement__item::before {
+    width: 35px;
+    height: 35px;
+  }
+
+  .teacher-achievement__about {
+    padding: 0;
+    font-size: 17px;
+    line-height: 29px;
+
+    &:last-of-type {
+      margin-bottom: 17px;
+    }
+
+    &:first-of-type {
+      &::before {
+        margin-bottom: 30px;
+      }
+    }
+  }
+
+  .teacher-achievement__link {
+    padding: 0;
+    font-size: 17px;
+  }
+
+  .guaranties-section {
+    padding-top: 30px;
+  }
+
+  .guaranties-section__title {
+    margin-bottom: 26px;
+    font-size: 42px;
+  }
+
+  .guaranties {
+    padding-top: 48px;
+    padding-bottom: 42px;
+    width: 1210px;
+  }
+
+  .guaranties__list {
+    padding-left: 116px;
+    padding-right: 120px;
+
+    &::after {
+      left: 133px;
+    }
+  }
+
+  .guaranties__item {
+    padding-left: 54px;
+    font-size: 18px;
+    line-height: 29px;
+  }
+
+  .guaranties__item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  .guaranties__item::before {
+    width: 35px;
+    height: 35px;
+  }
+
+  .reviews-section {
+    padding-top: 84px;
+    padding-bottom: 100px;
+  }
+
+  .reviews-section__title-tablet {
+    margin-bottom: 27px;
+    font-size: 42px;
+  }
+
+  .slider {
+    width: 1064px;
+  }
+
+  .slides__content {
+    padding: 43px 0 39px;
+    padding-left: 52px;
+  }
+
+  .slides__content-person {
+    padding-top: 4px;
+    width: 213px;
+  }
+
+  .slides__image-mobile {
+    display: none;
+  }
+
+  .slides__image-desktop {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 22px;
+  }
+
+  .slides__content-about {
+    width: 805px;
+    padding-right: 95px;
+  }
+
+  .slides__title {
+    font-size: 25px;
+  }
+
+  .slides__about-tablet {
+    font-size: 17px;
+    line-height: 29px;
+  }
+
+  .slides__button {
+    font-size: 17px;
+    line-height: 29px;
+  }
+
+  .slider__ctrl {
+    bottom: 260px;
+  }
+
+  .slider__ctrl-prev {
+    left: -55px;
+  }
+
+  .slider__ctrl-next {
+    right: -55px;
+  }
+
+  .slider__pagination {
+    padding-top: 38px;
+    width: 594px;
   }
 }
