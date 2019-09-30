@@ -53,6 +53,10 @@
   background-color: transparent;
 }
 
+::placeholder {
+  color: #ffffff;
+}
+
 .form__button {
   width: 250px;
   height: 48px;
@@ -200,6 +204,7 @@
   .logo__icon {
     margin: 0;
     margin-right: 83px;
+    width: 126px;
     order: 1;
   }
 

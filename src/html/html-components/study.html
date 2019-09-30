@@ -1,27 +1,17 @@
 <section class="teacher-section container">
   <h2 class="teacher-section__title">Преподаватель</h2>
   <div class="teacher__wrapper">
-    <img
-      class="teacher-section__img teacher-section__img-mobile"
-      src="../images/study/teacher-320.jpg"
-      alt="photo with a teacher"
-      width="279"
-      height="214"
-    />
-    <img
-      class="teacher-section__img teacher-section__img-tablet"
-      src="../images/study/teacher-768.jpg"
-      alt="photo with a teacher"
-      width="247"
-      height="321"
-    />
-    <img
-      class="teacher-section__img teacher-section__img-desktop"
-      src="../images/study/teacher-1280.jpg"
-      alt="photo with a teacher"
-      width="494"
-      height="644"
-    />
+    <picture class="teacher-section__img">
+      <source
+        media="(min-width: 1280px)"
+        srcset="./images/study/teacher-1280.jpg"
+      />
+      <source
+        media="(min-width: 768px)"
+        srcset="./images/study/teacher-768.jpg"
+      />
+      <img src="./images/study/teacher-320.jpg" alt="photo with a teacher" />
+    </picture>
     <div class="teacher-achievement">
       <h3 class="teacher-achievement__name">Елена Морева</h3>
       <ul class="teacher-achievement__list">
@@ -96,20 +86,16 @@
       <li class="slides__item">
         <div class="slides__content">
           <div class="slides__content-person">
-            <img
-              class="slides__image-mobile"
-              src="../images/study/reviews-320-768.png"
-              alt="photo with a person"
-              width="80"
-              height="80"
-            />
-            <img
-              class="slides__image-desktop"
-              src="../images/study/reviews-1280-1680.png"
-              alt="photo with a person"
-              width="145"
-              height="145"
-            />
+            <picture class="slides__image">
+              <source
+                media="(min-width: 1280px)"
+                srcset="./images/study/reviews-1280.png"
+              />
+              <img
+                src="./images/study/reviews-320-768.png"
+                alt="photo with a person"
+              />
+            </picture>
             <a class="slides__link" href="#">
               <svg class="slides__icon" width="34px" height="25px">
                 <use href="./images/sprite.svg#icon-vk"></use>
@@ -142,64 +128,63 @@
         </div>
       </li>
     </ul>
-
     <div class="slider__pagination">
-      <span class="slider-pagination__item">
+      <button class="slider-pagination__item">
         <img
-          src="../images/study/slider-01.png"
+          src="./images/study/slider-01.png"
           alt="photo with a person"
           width="54"
           height="54"
         />
-      </span>
-      <span class="slider-pagination__item">
+      </button>
+      <button class="slider-pagination__item">
         <img
-          src="../images/study/slider-02.png"
+          src="./images/study/slider-02.png"
           alt="photo with a person"
           width="54"
           height="54"
         />
-      </span>
-      <span class="slider-pagination__item">
+      </button>
+      <button class="slider-pagination__item">
         <img
-          src="../images/study/slider-03.png"
+          src="./images/study/slider-03.png"
           alt="photo with a person"
           width="54"
           height="54"
         />
-      </span>
-      <span class="slider-pagination__item">
+      </button>
+      <button class="slider-pagination__item">
         <img
-          src="../images/study/slider-04.png"
+          src="./images/study/slider-04.png"
           alt="photo with a person"
           width="54"
           height="54"
         />
-      </span>
-      <span class="slider-pagination__item">
+      </button>
+      <button class="slider-pagination__item">
         <img
-          src="../images/study/slider-05.png"
+          src="./images/study/slider-05.png"
           alt="photo with a person"
           width="54"
           height="54"
         />
-      </span>
-      <span class="slider-pagination__item">
+      </button>
+      <button class="slider-pagination__item">
         <img
-          src="../images/study/slider-06.png"
+          src="./images/study/slider-06.png"
           alt="photo with a person"
           width="54"
           height="54"
         />
-      </span>
-      <span class="slider-pagination__item">
+      </button>
+      <button class="slider-pagination__item">
         <img
-          src="../images/study/slider-07.png"
+          src="./images/study/slider-07.png"
           alt="photo with a person"
           width="54"
           height="54"
         />
-      </span>
+      </button>
     </div>
   </div>
 </section>

@@ -36,14 +36,7 @@ body {
 
 .teacher-section__img {
   margin-bottom: 19px;
-}
-
-.teacher-section__img-tablet {
-  display: none;
-}
-
-.teacher-section__img-desktop {
-  display: none;
+  width: 279px;
 }
 
 .teacher-achievement__name {
@@ -256,13 +249,12 @@ body {
   box-shadow: 4px 6.928px 34.96px 11.04px rgba(29, 29, 27, 0.09);
 }
 
-.slides__image-mobile {
-  margin: 0 auto;
-  margin-bottom: 18px;
-}
+.slides__image {
+  width: 80px;
 
-.slides__image-desktop {
-  display: none;
+  img {
+    margin: 0 auto 18px;
+  }
 }
 
 .slides__link {
@@ -317,10 +309,14 @@ body {
   padding-top: 17px;
   width: 184px;
   justify-content: space-between;
+  position: relative;
+  z-index: 3;
 }
 
 .slider-pagination__item {
   cursor: pointer;
+  border: 2px solid transparent;
+  background: none;
 }
 
 .slider-pagination__item:nth-last-child(-n +4) {
@@ -331,8 +327,6 @@ body {
 .slider-pagination__item:focus {
   border: 2px solid #ff6b08;
   border-radius: 50%;
-  width: 58px;
-  height: 58px;
 }
 
 @media (min-width: 768px) {
@@ -356,13 +350,9 @@ body {
     justify-content: space-between;
   }
 
-  .teacher-section__img-mobile {
-    display: none;
-  }
-
-  .teacher-section__img-tablet {
+  .teacher-section__img {
     margin-bottom: 0;
-    display: block;
+    width: 247px;
     align-self: baseline;
   }
 
@@ -524,14 +514,8 @@ body {
     font-size: 42px;
   }
 
-  .teacher-section__img-tablet {
-    display: none;
-  }
-
-  .teacher-section__img-desktop {
-    display: block;
-    margin-bottom: 0;
-    align-self: baseline;
+  .teacher-section__img {
+    width: 494px;
   }
 
   .teacher-achievement {
@@ -645,14 +629,12 @@ body {
     width: 213px;
   }
 
-  .slides__image-mobile {
-    display: none;
-  }
+  .slides__image {
+    width: 145px;
 
-  .slides__image-desktop {
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 22px;
+    img {
+      margin: 0 auto 22px;
+    }
   }
 
   .slides__content-about {
