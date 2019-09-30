@@ -862,9 +862,8 @@ img {
 
   .program-section {
     padding-top: 70px;
-    padding-bottom: 350px;
     background-image: url(../../images/photo-02-cut-desktop.jpg);
-    background-position: 0 90%;
+    background-position: 0 75%;
   }
 
   .program-section__title {
@@ -905,6 +904,19 @@ img {
     width: 160px;
   }
 
+  .program-section__subtitle {
+    font-size: 19px;
+  }
+
+  .caption {
+    font-size: 18px;
+  }
+
+  .theme {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
   .item__list {
     display: block;
   }
@@ -915,7 +927,7 @@ img {
   }
 
   .advantage-section {
-    top: 78%;
+    top: 70%;
   }
 
   .advantage__title {
@@ -928,7 +940,7 @@ img {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 50px 100px;
+    padding: 45px 100px;
   }
 
   .advantage__item {
@@ -938,5 +950,14 @@ img {
 
   .advantage__item:nth-child(n+4) {
     margin-bottom: 0;
+  }
+
+  .advantage__number {
+    font-size: 18px;
+  }
+
+  .advantage__subtitle {
+    font-size: 18px;
+    line-height: 22px;
   }
 }
