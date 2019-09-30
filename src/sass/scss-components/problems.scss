@@ -35,6 +35,8 @@
   font-size: 20px;
   padding-left: 20px;
   padding-right: 40px;
+  margin-bottom: 20px;
+
 }
 
 .problems-section__item {
@@ -257,7 +259,7 @@
     font-size: 26px;
     padding-left: 40px;
     padding-top: 60px;
-
+    // margin-bottom: 20px;
   }
 
   .problems-section__list {
@@ -267,7 +269,7 @@
     height: auto;
     padding: 20px 70px;
     position: relative;
-    top: 50px;
+    // top: 50px;
   }
 
   .problems-section__item {
@@ -350,7 +352,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     height: auto;
-    padding: 20px 90px;
+    padding: 50px 90px;
     position: relative;
     top: 50px;
   }
