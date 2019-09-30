@@ -186,7 +186,7 @@
   }
 
   .program-section {
-    padding-bottom: 360px;
+    padding-bottom: 310px;
     background-image: url(../../images/photo-02-cut-tablet.jpg);
     background-position: 100% 900px;
   }
@@ -213,6 +213,7 @@
 
   .program-section__item {
     position: relative;
+    margin-bottom: 20px;
   }
 
   .program-section__item::before {
@@ -243,7 +244,7 @@
 
   .program-section__list::before {
     content: "";
-    height: 790px;
+    height: 840px;
   }
 
   .advantage__title {
@@ -251,11 +252,12 @@
     width: auto;
     font-size: 26px;
     letter-spacing: 1.5px;
+    margin-bottom: 20px;
   }
 
   .advantage-section {
     position: absolute;
-    top: 85%;
+    top: 87%;
   }
 
   .advantage__list {
@@ -263,7 +265,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 25px 110px;
+    padding: 28px 100px;
   }
 
   .advantage__item:nth-child(n+5) {
@@ -271,7 +273,7 @@
   }
 
   .advantage__item {
-    width: 200px;
+    width: 220px;
   }
 }
 

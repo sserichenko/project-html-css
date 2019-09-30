@@ -1703,7 +1703,7 @@ body {
   }
 
   .solving-section {
-    padding-top: 180px;
+    padding-top: 210px;
     padding-bottom: 50px;
   }
 
@@ -1742,8 +1742,9 @@ body {
     line-height: 1.269;
     width: 530px;
     font-size: 26px;
-    padding-left: 40px;
     padding-top: 60px;
+    padding-right: 230px;
+    text-align: left;
   }
 
   .problems-section__list {
@@ -1751,8 +1752,8 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     height: auto;
-    padding: 20px 70px;
-    position: relative;
+    padding: 38px 70px;
+    top: 185px;
   }
 
   .problems-section__item {
@@ -1768,7 +1769,7 @@ body {
   }
 
   .program-section {
-    padding-bottom: 360px;
+    padding-bottom: 310px;
     background-image: url(../../images/photo-02-cut-tablet.jpg);
     background-position: 100% 900px;
   }
@@ -1795,6 +1796,7 @@ body {
 
   .program-section__item {
     position: relative;
+    margin-bottom: 20px;
   }
 
   .program-section__item::before {
@@ -1825,7 +1827,7 @@ body {
 
   .program-section__list::before {
     content: "";
-    height: 790px;
+    height: 840px;
   }
 
   .advantage__title {
@@ -1833,11 +1835,12 @@ body {
     width: auto;
     font-size: 26px;
     letter-spacing: 1.5px;
+    margin-bottom: 20px;
   }
 
   .advantage-section {
     position: absolute;
-    top: 85%;
+    top: 87%;
   }
 
   .advantage__list {
@@ -1845,7 +1848,7 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 25px 110px;
+    padding: 28px 100px;
   }
 
   .advantage__item:nth-child(n+5) {
@@ -1853,7 +1856,7 @@ body {
   }
 
   .advantage__item {
-    width: 200px;
+    width: 220px;
   }
 
   .container {
@@ -1962,7 +1965,7 @@ body {
   }
 
   .slider__ctrl {
-    bottom: 190px;
+    bottom: 215px;
     width: 25px;
     height: 14px;
   }

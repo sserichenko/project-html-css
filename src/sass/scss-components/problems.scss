@@ -210,7 +210,7 @@
   }
 
   .solving-section {
-    padding-top: 180px;
+    padding-top: 210px;
     padding-bottom: 50px;
   }
 
@@ -233,7 +233,6 @@
     width: 292px;
 
   }
-
   .problems-section {
     width: 100%;
     background-image: url(../../images/fire.png);
@@ -241,7 +240,6 @@
     height: 334px;
     position: relative;
     padding-top: 0;
-
 
   }
 
@@ -252,9 +250,9 @@
     line-height: 1.269;
     width: 530px;
     font-size: 26px;
-    padding-left: 40px;
     padding-top: 60px;
-    // margin-bottom: 20px;
+    padding-right: 230px;
+    text-align: left;
   }
 
   .problems-section__list {
@@ -262,9 +260,8 @@
     justify-content: space-between;
     flex-wrap: wrap;
     height: auto;
-    padding: 20px 70px;
-    position: relative;
-    // top: 50px;
+    padding: 38px 70px;
+    top: 185px;
   }
 
   .problems-section__item {
