@@ -1,42 +1,34 @@
 /*problems-section*/
 
 .problems-section {
-  margin: 0 auto;
   padding-top: 50px;
   background-color: rgb(17, 21, 23);
   height: 514px;
-  //  margin-bottom: 20px;
+  position: relative;
+}
+
+.problems-section__title {
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  line-height: 24px;
+  font-size: 20px;
+  margin-bottom: 20px;
 }
 
 .problems-section__list {
   background-color: rgb(255, 255, 255);
   box-shadow: 4px 6.928px 15.54px 5.46px rgba(29, 29, 27, 0.04);
-  width: 280px;
-  height: 470px;
   list-style: none;
-  margin: 0 auto;
   padding-left: 25px;
   padding-right: 25px;
-  line-height: 1.538;
-  padding-top: 10px;
-  position: relative;
-
-}
-
-
-.problems-section__title {
-  margin: 0;
-  font-family: "Montserrat";
-  color: rgb(255, 255, 255);
-  font-weight: bold;
-  line-height: 1.5;
-  // width: 230px;
-  // height: 140px;
-  font-size: 20px;
-  padding-left: 20px;
-  padding-right: 40px;
-  margin-bottom: 20px;
-
+  padding-top: 27px;
+  padding-bottom: 30px;
+  position: absolute;
+  top: 170px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .problems-section__item {
@@ -86,18 +78,11 @@
 }
 
 
-/* FEATURES SECTION */
-
-.solving-section__list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-
-
-}
+/* Solving SECTION */
 
 .solving-section {
-  padding-top: 160px;
+  padding-top: 190px;
+  padding-bottom: 53px;
 }
 
 .solving-section__title {
@@ -114,6 +99,32 @@
 
 }
 
+.solving-section__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.solving-section__item {
+  width: 280px;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 4px 6.928px 23.68px 8.32px rgba(29, 29, 27, 0.11);
+  height: 267px;
+  margin-bottom: 16px;
+  padding-top: 22px;
+  padding-bottom: 30px;
+}
+
+.icons {
+  width: 74px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-position: center;
+  fill: rgb(255, 107, 8);
+}
+
 .solving-section__subtitle {
   margin: 0 auto;
   font-family: "Montserrat";
@@ -125,7 +136,6 @@
   // height: 31px;
   font-size: 13px;
   margin-bottom: 20px;
-
 
 }
 
@@ -155,24 +165,9 @@
 
 }
 
-.solving-section__item {
-  width: 280px;
-  text-align: center;
-  background-color: rgb(255, 255, 255);
-  box-shadow: 4px 6.928px 23.68px 8.32px rgba(29, 29, 27, 0.11);
-  height: 267px;
-  margin-bottom: 16px;
-  padding-top: 22px;
-}
 
-.icons {
-  width: 280px;
-  height: 50px;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-bottom: 22px;
-  fill: rgb(255, 107, 8);
-}
+
+
 // .solving-section__item::before {
 //   content: '';
 //   display: block;
