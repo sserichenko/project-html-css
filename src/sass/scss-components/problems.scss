@@ -52,7 +52,6 @@
   background-color: rgb(255, 107, 8);
   top: 12px;
   left: -35px;
-
 }
 
 .problem-section__number {
@@ -64,7 +63,6 @@
   color: rgb(255, 107, 8);
   line-height: 29px;
   width: 14px;
-
 }
 
 .problems-section__subtitle {
@@ -74,9 +72,7 @@
   color: rgb(24, 25, 29);
   font-weight: bold;
   line-height: 16px;
-
 }
-
 
 /* Solving SECTION */
 
@@ -93,17 +89,14 @@
   line-height: 1.65;
   text-align: center;
   width: 224px;
-  // height: 16px;
   margin: 0 auto;
   margin-bottom: 40px;
-
 }
 
 .solving-section__list {
   list-style: none;
   margin: 0;
   padding: 0;
-
 }
 
 .solving-section__item {
@@ -133,10 +126,8 @@
   line-height: 1.538;
   text-align: center;
   width: 218px;
-  // height: 31px;
   font-size: 13px;
   margin-bottom: 20px;
-
 }
 
 .solving-section__about {
@@ -146,11 +137,7 @@
   line-height: 1.818;
   text-align: center;
   width: 250px;
-  // height: 51px;
   font-size: 11px;
-  // padding-top: 20px;
-
-
 }
 
 .solving-section__subtitle::after {
@@ -162,25 +149,10 @@
   background-color: rgb(255, 107, 8);
   width: 25px;
   height: 2px;
-
 }
-
-
-
-
-// .solving-section__item::before {
-//   content: '';
-//   display: block;
-//   height: 50px;
-//   margin-bottom: 22px;
-//   background-repeat: no-repeat;
-//   background-position: center;
-
-// }
 
 .solving-section__item:hover {
   background-color: rgb(255, 107, 8);
-
 }
 
 .solving-section__item:hover .solving-section__subtitle {
@@ -198,7 +170,6 @@
 .solving-section__item:hover .icons {
   fill: rgb(255, 255,255)
 }
-
 
 @media (min-width: 768px) {
   .solving-section__list {
@@ -231,8 +202,8 @@
     font-weight: bold;
     line-height: 1.269;
     width: 292px;
-
   }
+
   .problems-section {
     width: 100%;
     background-image: url(../../images/fire.png);
@@ -240,7 +211,6 @@
     height: 334px;
     position: relative;
     padding-top: 0;
-
   }
 
   .problems-section__title {
@@ -266,13 +236,11 @@
 
   .problems-section__item {
     flex: 0 0 235px;
-
   }
 
   .problems-section__item:nth-child(n+5){
     margin-bottom: 0;
   }
-
 }
 
 @media (min-width: 1280px) {
@@ -296,6 +264,7 @@
   .solving-section__item {
     flex: 0 0 390px;
     height: 340px;
+    padding-top: 40px;
   }
 
   .solving-section__title {
@@ -305,18 +274,14 @@
     width: 1210px;
     font-size: 42px;
     text-align: left;
-
   }
 
   .solving-section__subtitle {
-
     font-family: "Montserrat";
     color: rgb(24, 25, 29);
     font-weight: bold;
     width: 322px;
     font-size: 18px;
-
-
   }
 
   .solving-section__about {
@@ -325,9 +290,7 @@
     line-height: 2.083;
     text-align: center;
     width: 325px;
-    // height: 109px;
     font-size: 15px;
-
   }
 
   .problems-section {
@@ -336,7 +299,7 @@
     background-repeat: no-repeat;
     position: relative;
     height: auto;
-
+    padding-bottom: 247px;
   }
 
   .problems-section__list {
@@ -344,14 +307,12 @@
     justify-content: space-between;
     flex-wrap: wrap;
     height: auto;
-    padding: 50px 90px;
-    position: relative;
-    top: 50px;
+    position: absolute;
+    top:250px;
   }
 
   .problems-section__item {
     flex: 0 0 300px;
-
   }
 
   .problems-section__title {
@@ -361,11 +322,8 @@
     font-weight: bold;
     line-height: 1.346;
     width: 760px;
-    // height: 154px;
-    margin: 0;
-    // margin-top: 20px;
-
-
+    margin: 0 auto;
+    padding-right: 465px;
   }
 
   .problems-section__subtitle {
@@ -376,17 +334,12 @@
     width: 266px;
     font-size: 18px;
     margin-top: 15px;
-
   }
 
   .problem-section__number {
-
     font-size: 21px;
     line-height: 1.4;
     width: 26px;
     font-family: "Montserrat";
   }
-
-
 }
-

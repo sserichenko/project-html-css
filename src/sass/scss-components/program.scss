@@ -7,7 +7,7 @@
   padding-top: 50px;
   padding-bottom: 415px;
   background: rgb(17, 21, 23);
-  background-image: url(../../images/photo-02-cut.jpg);
+  background-image: url(../images/photo-02-cut.jpg);
   background-repeat: no-repeat;
   background-position: 100% 1470px;
 }
@@ -49,10 +49,6 @@
   padding-right: 20px;
 }
 
-// .program-section__subtitle {
-//   position: relative;
-// }
-
 .program-section__item::before {
   content: "";
   display: block;
@@ -70,6 +66,7 @@
   padding: 0;
   list-style: none;
 }
+
 .item__list--item {
   margin-bottom: 16px;
 }
@@ -187,8 +184,9 @@
 
   .program-section {
     padding-bottom: 310px;
-    background-image: url(../../images/photo-02-cut-tablet.jpg);
+    background-image: url(../images/photo-02-cut-tablet.jpg);
     background-position: 100% 900px;
+    padding-top: 60px;
   }
 
   .program-section__title {
@@ -196,6 +194,7 @@
     padding-left: 50px;
     font-size: 26px;
     letter-spacing: 1.5px;
+    margin-bottom: 52px;
   }
 
   .program-section__list {
@@ -284,18 +283,16 @@
 
   .program-section {
     padding-top: 70px;
-    padding-bottom: 350px;
-    background-image: url(../../images/photo-02-cut-desktop.jpg);
-    background-position: 0 90%;
+    padding-bottom: 390px;
+    background-image: url(../images/photo-02-cut-desktop.jpg);
+    background-position: 0 72%;
   }
 
   .program-section__title {
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 50px;
-    padding-left: 10px;
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 34px;
     font-size: 42px;
-    width: 1180px;
   }
 
   .program-section__list::before {
@@ -332,12 +329,11 @@
   }
 
   .item__list--item {
-    margin: 0;
     width: 160px;
   }
 
   .advantage-section {
-    top: 78%;
+    top: 66%;
   }
 
   .advantage__title {
@@ -354,7 +350,7 @@
   }
 
   .advantage__item {
-    width: 300px;
+    width: 260px;
     margin-bottom: 30px;
   }
 
