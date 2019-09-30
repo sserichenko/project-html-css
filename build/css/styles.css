@@ -753,6 +753,180 @@ img {
   display: none;
 }
 
+/*problems-section*/
+
+.problems-section {
+  margin: 0 auto;
+  padding-top: 50px;
+  background-color: #111517;
+  height: 514px;
+}
+
+.problems-section__list {
+  background-color: white;
+  box-shadow: 4px 6.928px 15.54px 5.46px rgba(29, 29, 27, 0.04);
+  width: 280px;
+  height: 470px;
+  list-style: none;
+  margin: 0 auto;
+  padding-left: 25px;
+  padding-right: 25px;
+  line-height: 1.538;
+  padding-top: 10px;
+  position: relative;
+}
+
+.problems-section__title {
+  margin: 0;
+  font-family: "Montserrat";
+  color: white;
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 40px;
+  margin-bottom: 20px;
+}
+
+.problems-section__item {
+  margin-bottom: 20px;
+}
+
+.problems-section__item:last-child {
+  margin-bottom: 0;
+}
+
+.help {
+  color: #ff6b08;
+}
+
+.problem-section__number::before {
+  display: block;
+  position: absolute;
+  content: "";
+  width: 25px;
+  height: 2px;
+  background-color: #ff6b08;
+  top: 12px;
+  left: -35px;
+}
+
+.problem-section__number {
+  position: relative;
+  margin: 0;
+  margin-left: 35px;
+  font-size: 14px;
+  font-family: "Montserrat",sans-serif;
+  color: #ff6b08;
+  line-height: 29px;
+  width: 14px;
+}
+
+.problems-section__subtitle {
+  margin: 0;
+  font-family: "Montserrat";
+  font-size: 14px;
+  color: #18191d;
+  font-weight: bold;
+  line-height: 16px;
+}
+
+/* FEATURES SECTION */
+
+.solving-section__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.solving-section {
+  padding-top: 160px;
+}
+
+.solving-section__title {
+  font-size: 20px;
+  font-family: "Montserrat";
+  color: #18191d;
+  font-weight: bold;
+  line-height: 1.65;
+  text-align: center;
+  width: 224px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.solving-section__subtitle {
+  margin: 0 auto;
+  font-family: "Montserrat";
+  color: #111517;
+  font-weight: bold;
+  line-height: 1.538;
+  text-align: center;
+  width: 218px;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.solving-section__about {
+  margin: 0 auto;
+  font-family: "Montserrat";
+  color: #858585;
+  line-height: 1.818;
+  text-align: center;
+  width: 250px;
+  font-size: 11px;
+}
+
+.solving-section__subtitle::after {
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: block;
+  content: "";
+  background-color: #ff6b08;
+  width: 25px;
+  height: 2px;
+}
+
+.solving-section__item {
+  width: 280px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 4px 6.928px 23.68px 8.32px rgba(29, 29, 27, 0.11);
+  height: 267px;
+  margin-bottom: 16px;
+  padding-top: 22px;
+}
+
+.icons {
+  width: 280px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 22px;
+  fill: #ff6b08;
+}
+
+.solving-section__item:hover {
+  background-color: #ff6b08;
+}
+
+.solving-section__item:hover .solving-section__subtitle {
+  color: white;
+}
+
+.solving-section__item:hover .solving-section__about {
+  color: white;
+}
+
+.solving-section__item:hover :after {
+  background-color: white;
+}
+
+.solving-section__item:hover .icons {
+  fill: white;
+}
+
 .container {
   margin: 0 auto;
 }
@@ -1004,6 +1178,75 @@ img {
     margin: 0;
   }
 
+  .solving-section__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .solving-section {
+    padding-top: 180px;
+    padding-bottom: 50px;
+  }
+
+  .solving-section__item {
+    flex: 0 0 290px;
+  }
+
+  .container {
+    width: 688px;
+  }
+
+  .solving-section__title {
+    margin: 0 auto;
+    margin-bottom: 40px;
+    font-size: 26px;
+    font-family: "Montserrat";
+    color: #18191d;
+    font-weight: bold;
+    line-height: 1.269;
+    width: 292px;
+  }
+
+  .problems-section {
+    width: 100%;
+    background-image: url(../../images/fire.png);
+    background-repeat: no-repeat;
+    height: 334px;
+    position: relative;
+    padding-top: 0;
+  }
+
+  .problems-section__title {
+    font-family: "Montserrat";
+    color: white;
+    font-weight: bold;
+    line-height: 1.269;
+    width: 530px;
+    font-size: 26px;
+    padding-left: 40px;
+    padding-top: 60px;
+  }
+
+  .problems-section__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: auto;
+    padding: 20px 70px;
+    position: relative;
+  }
+
+  .problems-section__item {
+    flex: 0 0 235px;
+  }
+
+  .problems-section__item:nth-child(n+5) {
+    margin-bottom: 0;
+  }
+
   .container {
     width: 688px;
   }
@@ -1227,6 +1470,103 @@ img {
 
   .header-features__item:nth-of-type(3) {
     width: 325px;
+  }
+
+  .container {
+    width: 1210px;
+  }
+
+  .solving-section__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+  }
+
+  .solving-section {
+    padding-bottom: 80px;
+    padding-top: 140px;
+  }
+
+  .solving-section__item {
+    flex: 0 0 390px;
+    height: 340px;
+  }
+
+  .solving-section__title {
+    font-family: "Montserrat";
+    color: #18191d;
+    font-weight: bold;
+    width: 1210px;
+    font-size: 42px;
+    text-align: left;
+  }
+
+  .solving-section__subtitle {
+    font-family: "Montserrat";
+    color: #18191d;
+    font-weight: bold;
+    width: 322px;
+    font-size: 18px;
+  }
+
+  .solving-section__about {
+    font-family: "Montserrat";
+    color: #858585;
+    line-height: 2.083;
+    text-align: center;
+    width: 325px;
+    font-size: 15px;
+  }
+
+  .problems-section {
+    width: 100%;
+    background-image: url(../../images/fire2.png);
+    background-repeat: no-repeat;
+    position: relative;
+    height: auto;
+  }
+
+  .problems-section__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: auto;
+    padding: 50px 90px;
+    position: relative;
+    top: 50px;
+  }
+
+  .problems-section__item {
+    flex: 0 0 300px;
+  }
+
+  .problems-section__title {
+    font-size: 42px;
+    font-family: "Montserrat";
+    color: white;
+    font-weight: bold;
+    line-height: 1.346;
+    width: 760px;
+    margin: 0;
+  }
+
+  .problems-section__subtitle {
+    font-family: "Montserrat";
+    color: #18191d;
+    font-weight: bold;
+    line-height: 1.62;
+    width: 266px;
+    font-size: 18px;
+    margin-top: 15px;
+  }
+
+  .problem-section__number {
+    font-size: 21px;
+    line-height: 1.4;
+    width: 26px;
+    font-family: "Montserrat";
   }
 
   .container {
