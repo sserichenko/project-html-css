@@ -1729,7 +1729,7 @@ body {
 
   .problems-section {
     width: 100%;
-    background-image: url(../../images/fire.png);
+    background-image: url(../images/fire.png);
     background-repeat: no-repeat;
     height: 334px;
     position: relative;
@@ -2289,7 +2289,7 @@ body {
 
   .problems-section {
     width: 100%;
-    background-image: url(../../images/fire2.png);
+    background-image: url(../images/fire2.png);
     background-repeat: no-repeat;
     position: relative;
     height: auto;
