@@ -350,8 +350,11 @@
   }
 
   .advantage__item {
-    width: 260px;
+    width: 328px;
     margin-bottom: 30px;
+  }
+  .advantage__subtitle {
+    font-size: 18px;
   }
 
   .advantage__item:nth-child(n+4) {
