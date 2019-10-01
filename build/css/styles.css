@@ -2400,6 +2400,10 @@ body {
     margin-bottom: 40px;
   }
 
+  .advantage__number {
+    font-size: 21px;
+  }
+
   .advantage__list {
     display: flex;
     flex-direction: row;
