@@ -1,0 +1,675 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #858585;
+  font-size: 11px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.teacher-section {
+  padding-top: 242px;
+  padding-bottom: 16px;
+}
+
+.teacher-section__title {
+  margin-bottom: 21px;
+  color: #111517;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 800;
+}
+
+.teacher-section__img img {
+  margin-bottom: 19px;
+  width: 279px;
+}
+
+.teacher-achievement__name {
+  color: #111517;
+  font-size: 16px;
+  line-height: 29px;
+  font-weight: 800;
+}
+
+.teacher-achievement__list {
+  margin: 0;
+  margin-bottom: 17px;
+  padding: 0;
+  padding-top: 24px;
+  border-top: 1px solid rgba(133, 133, 133, 0.38);
+  list-style: none;
+}
+
+.teacher-achievement__item {
+  position: relative;
+  padding-left: 34px;
+  width: 280px;
+  color: #111517;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 600;
+  letter-spacing: 1.06px;
+}
+
+.teacher-achievement__item:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.teacher-achievement__item::before {
+  display: block;
+  content: '';
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/study/icon-check.svg);
+}
+
+.teacher-achievement__about {
+  margin: 0;
+  margin-bottom: 20px;
+  padding-left: 15px;
+
+  &:last-of-type {
+    margin-bottom: 8px;
+  }
+
+  &:first-of-type {
+    &::before {
+      margin-bottom: 17px;
+      display: block;
+      content: '';
+      width: 25px;
+      height: 2px;
+      background-color: #ff6b08;
+    }
+  }
+}
+
+.teacher-achievement__link {
+  padding-left: 15px;
+  color: #ff6b08;
+  font-size: 11px;
+  line-height: 29px;
+  font-weight: 400;
+}
+
+.guaranties-section {
+  padding-top: 9px;
+}
+
+.guaranties-section__title {
+  margin-bottom: 3px;
+  color: #111517;
+  font-size: 20px;
+  line-height: 63px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.guaranties {
+  background-color: #f1f1f1;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.guaranties__list {
+  padding: 0;
+  list-style: none;
+  position: relative;
+
+  &::after {
+    content: '';
+    display: inline-block;
+    border-width: 1px;
+    border-color: #bababa;
+    border-style: dotted;
+    position: absolute;
+    width: 1px;
+    height: 80%;
+    top: 10px;
+    left: 12px;
+    z-index: 1;
+  }
+}
+
+.guaranties__item {
+  position: relative;
+  padding-left: 34px;
+  width: 280px;
+  color: #18191d;
+  font-weight: 500;
+}
+
+.guaranties__item:not(:last-child) {
+  margin-bottom: 18px;
+}
+
+.guaranties__item::before {
+  display: block;
+  content: '';
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/study/icon-campfire.svg);
+  z-index: 2;
+}
+
+.guaranties__item span {
+  color: #ff6b08;
+}
+
+.reviews-section {
+  padding-top: 46px;
+  padding-bottom: 55px;
+  text-align: center;
+}
+
+.reviews-section__title {
+  margin-bottom: 17px;
+  color: #111517;
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: 800;
+}
+
+.reviews-section__title-tablet {
+  display: none;
+}
+
+.slider {
+  position: relative;
+  width: 280px;
+  margin: auto;
+}
+
+.slider__buttons {
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  bottom: 0;
+  z-index: 1;
+}
+
+.slider__ctrl {
+  position: absolute;
+  bottom: 21px;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 20px;
+  height: 11px;
+  border: none;
+  z-index: 1;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.slider__ctrl-prev {
+  background-image: url(../images/study/icon-prev-320.png);
+  left: 0;
+}
+
+.slider__ctrl-next {
+  background-image: url(../images/study/icon-next-320.png);
+  right: 0;
+}
+
+.slides__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.slides__content {
+  padding: 22px 41px 34px;
+  background-color: #ffffff;
+  box-shadow: 4px 6.928px 34.96px 11.04px rgba(29, 29, 27, 0.09);
+}
+
+.slides__image {
+  width: 80px;
+
+  img {
+    margin: 0 auto 18px;
+  }
+}
+
+.slides__link {
+  display: block;
+  margin-bottom: 8px;
+  width: 34px;
+  margin: 0 auto;
+}
+
+.slides__title {
+  color: #ff6b08;
+  font-size: 13px;
+  line-height: 29px;
+  font-weight: 800;
+}
+
+.slides__subtitle {
+  margin: 0;
+  margin-bottom: 14px;
+  color: #858585;
+  line-height: 17px;
+  font-weight: 500;
+}
+
+.slides__about {
+  margin: 0;
+  color: #18191d;
+  font-weight: 500;
+}
+
+.slides__about-tablet {
+  display: none;
+}
+
+.slides__button {
+  margin: 0;
+  padding: 0;
+  right: 36px;
+  bottom: 34px;
+  color: #ff6b08;
+  font-size: 11px;
+  line-height: 20px;
+  font-weight: 500;
+  text-decoration: underline;
+  border: none;
+  cursor: pointer;
+}
+
+.slider__pagination {
+  display: flex;
+  margin: 0 auto;
+  padding-top: 17px;
+  width: 184px;
+  justify-content: space-between;
+  position: relative;
+  z-index: 3;
+}
+
+.slider-pagination__item {
+  cursor: pointer;
+  border: 2px solid transparent;
+  background: none;
+}
+
+.slider-pagination__item:nth-last-child(-n +4) {
+  display: none;
+}
+
+.slider-pagination__item:hover,
+.slider-pagination__item:focus {
+  border: 2px solid #ff6b08;
+  border-radius: 50%;
+}
+
+@media (min-width: 768px) {
+  .container {
+    min-width: 688px;
+  }
+
+  .teacher-section {
+    padding-top: 218px;
+    padding-bottom: 20px;
+  }
+
+  .teacher-section__title {
+    margin-bottom: 15px;
+    font-size: 26px;
+    line-height: 63px;
+  }
+
+  .teacher__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .teacher-section__img img {
+    margin-bottom: 0;
+    width: 247px;
+    align-self: baseline;
+  }
+
+  .teacher-achievement {
+    flex-basis: 398px;
+  }
+
+  .teacher-achievement__name {
+    margin-bottom: 9px;
+    font-size: 20px;
+  }
+
+  .teacher-achievement__list {
+    padding-top: 21px;
+  }
+
+  .teacher-achievement__item {
+    width: 374px;
+  }
+
+  .teacher-achievement__about {
+    padding-left: 2px;
+
+    &:last-of-type {
+      margin-bottom: 13px;
+    }
+  }
+
+  .teacher-achievement__link {
+    padding-left: 2px;
+  }
+
+  .guaranties-section {
+    padding-top: 15px;
+  }
+
+  .guaranties-section__title {
+    margin-bottom: 9px;
+    font-size: 26px;
+  }
+
+  .guaranties {
+    padding-top: 34px;
+    padding-bottom: 29px;
+    width: 688px;
+    margin: 0 auto;
+  }
+
+  .guaranties__list {
+    padding: 0 55px;
+
+    &::after {
+      left: 67px;
+    }
+  }
+
+  .guaranties__item {
+    width: 100%;
+  }
+
+  .reviews-section {
+    padding-top: 47px;
+    padding-bottom: 75px;
+  }
+
+  .reviews-section__title {
+    display: none;
+  }
+
+  .reviews-section__title-tablet {
+    margin-bottom: 20px;
+    color: #111517;
+    font-size: 26px;
+    line-height: 63px;
+    font-weight: 800;
+    display: block;
+  }
+
+  .slider {
+    width: 688px;
+  }
+
+  .slider__ctrl {
+    bottom: 215px;
+    width: 25px;
+    height: 14px;
+  }
+
+  .slider__ctrl-prev {
+    background-image: url(../images/study/icon-prev-768.png);
+    left: -18px;
+  }
+
+  .slider__ctrl-next {
+    background-image: url(../images/study/icon-next-768.png);
+    right: -18px;
+  }
+
+  .slides__content {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0 49px;
+  }
+
+  .slides__content-person {
+    padding-top: 22px;
+    width: 152px;
+  }
+
+  .slides__content-about {
+    width: 528px;
+    text-align: left;
+    padding-right: 60px;
+  }
+
+  .slides__title {
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+
+  .slides__subtitle {
+    font-size: 13px;
+    margin-bottom: 16px;
+  }
+
+  .slides__about {
+    display: none;
+  }
+
+  .slides__about-tablet {
+    display: block;
+    margin: 0;
+    color: #18191d;
+    font-weight: 500;
+  }
+
+  .slider__pagination {
+    padding-top: 24px;
+    width: 505px;
+  }
+
+  .slider-pagination__item:nth-last-child(-n +4) {
+    display: inline-block;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    min-width: 1210px;
+  }
+
+  .teacher-section {
+    padding-top: 88px;
+    padding-bottom: 48px;
+  }
+
+  .teacher-section__title {
+    margin-bottom: 44px;
+    font-size: 42px;
+  }
+
+  .teacher-section__img img {
+    width: 494px;
+  }
+
+  .teacher-achievement {
+    flex-basis: 631px;
+  }
+
+  .teacher-achievement__name {
+    margin-bottom: 10px;
+    font-size: 29px;
+  }
+
+  .teacher-achievement__list {
+    width: 602px;
+    margin-bottom: 26px;
+    padding-top: 35px;
+  }
+
+  .teacher-achievement__item {
+    padding-left: 42px;
+    font-size: 17px;
+    line-height: 29px;
+    width: 100%;
+  }
+
+  .teacher-achievement__item::before {
+    width: 35px;
+    height: 35px;
+  }
+
+  .teacher-achievement__about {
+    padding: 0;
+    font-size: 17px;
+    line-height: 29px;
+
+    &:last-of-type {
+      margin-bottom: 17px;
+    }
+
+    &:first-of-type {
+      &::before {
+        margin-bottom: 30px;
+      }
+    }
+  }
+
+  .teacher-achievement__link {
+    padding: 0;
+    font-size: 17px;
+  }
+
+  .guaranties-section {
+    padding-top: 30px;
+  }
+
+  .guaranties-section__title {
+    margin-bottom: 26px;
+    font-size: 42px;
+  }
+
+  .guaranties {
+    padding-top: 48px;
+    padding-bottom: 42px;
+    width: 1210px;
+  }
+
+  .guaranties__list {
+    padding-left: 116px;
+    padding-right: 120px;
+
+    &::after {
+      left: 133px;
+    }
+  }
+
+  .guaranties__item {
+    padding-left: 54px;
+    font-size: 18px;
+    line-height: 29px;
+  }
+
+  .guaranties__item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  .guaranties__item::before {
+    width: 35px;
+    height: 35px;
+  }
+
+  .reviews-section {
+    padding-top: 84px;
+    padding-bottom: 100px;
+  }
+
+  .reviews-section__title-tablet {
+    margin-bottom: 27px;
+    font-size: 42px;
+  }
+
+  .slider {
+    width: 1064px;
+  }
+
+  .slides__content {
+    padding: 43px 0 39px;
+    padding-left: 52px;
+  }
+
+  .slides__content-person {
+    padding-top: 4px;
+    width: 213px;
+  }
+
+  .slides__image {
+    width: 145px;
+
+    img {
+      margin: 0 auto 22px;
+    }
+  }
+
+  .slides__content-about {
+    width: 805px;
+    padding-right: 95px;
+  }
+
+  .slides__title {
+    font-size: 25px;
+  }
+
+  .slides__about-tablet {
+    font-size: 17px;
+    line-height: 29px;
+  }
+
+  .slides__button {
+    font-size: 17px;
+    line-height: 29px;
+  }
+
+  .slider__ctrl {
+    bottom: 260px;
+  }
+
+  .slider__ctrl-prev {
+    left: -55px;
+  }
+
+  .slider__ctrl-next {
+    right: -55px;
+  }
+
+  .slider__pagination {
+    padding-top: 38px;
+    width: 594px;
+  }
+}
