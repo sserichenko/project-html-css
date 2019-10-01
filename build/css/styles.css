@@ -640,6 +640,9 @@ img {
 
 .menu-link {
   display: block;
+  border: none;
+  background: none;
+  cursor: pointer;
 }
 
 .consultation {
@@ -928,9 +931,7 @@ img {
 }
 
 .solving-section__subtitle::after {
-  margin: 0 auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px auto 0;
   display: block;
   content: "";
   background-color: #ff6b08;
@@ -970,6 +971,7 @@ img {
   background-image: url(../images/photo-02-cut.jpg);
   background-repeat: no-repeat;
   background-position: 100% 1470px;
+  overflow: hidden;
 }
 
 .program-section__title {
